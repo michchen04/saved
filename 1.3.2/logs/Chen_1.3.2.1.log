@@ -1,0 +1,43 @@
+# IPython log file
+
+import matplotlib
+mathplotlib.use('Agg')
+matplotlib('Agg')
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+import numpy as np
+import matplotlib.pyplot as plt
+a = np.random.randn(10000)
+plt.hist(a)
+#[Out]# (array([   11.,    95.,   481.,  1601.,  2750.,  2839.,  1617.,   496.,
+#[Out]#          103.,     7.]), array([-3.86214251, -3.09205711, -2.32197172, -1.55188632, -0.78180093,
+#[Out]#        -0.01171553,  0.75836987,  1.52845526,  2.29854066,  3.06862605,
+#[Out]#         3.83871145]), <a list of 10 Patch objects>)
+plt.savefig('1.3.2/Histogram')
+%logstart -ort 1.3.2/logs/Last_1.3.2.#.log
+%logstop
+%logstart -ort 1.3.2/logs/Last_1.3.2.1.log
+%logstop
+# Thu, 06 Dec 2018 21:03:34
+# Michael Chen 1.3.2 IPython Log
+# Thu, 06 Dec 2018 21:10:16
+7a. If you multiply by a float, you get a decimal while if you use a integer you get no decimal points
+# Thu, 06 Dec 2018 21:10:49
+ 7a If you multiply by a float, you get a decimal while if you use a integer you get no decimal points
+# Thu, 06 Dec 2018 21:11:16
+# 7a. If you multiply by a float, you get a decimal while if you use a integer you get no decimal points
+# Thu, 06 Dec 2018 21:11:43
+7/2
+#[Out]# 3
+# Thu, 06 Dec 2018 21:11:50
+7/2.
+#[Out]# 3.5
+# Thu, 06 Dec 2018 21:14:02
+# 7b. When you dividee by an integer it doesn't do decimal and just cuts it out entirely whereas when you divide by a float, it includes the decimal.
+# Thu, 06 Dec 2018 21:28:56
+student_age = 16
+# Thu, 06 Dec 2018 21:29:24
+23**43
+#[Out]# 35834136918934220777541995677272642015423987712183913488967L
+# Thu, 06 Dec 2018 21:35:06
+%logstop

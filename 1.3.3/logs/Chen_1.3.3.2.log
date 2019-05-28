@@ -1,0 +1,150 @@
+# IPython log file
+
+%logstart -ort  %logstart -ort 1.3.2/logs/Last_1.3.2.#.log
+%logstart -ort 1.3.3/logs/Chen_1.3.3.1.log
+#6a Prediciton: False
+a**2 >= 9 and not a>3
+a > 3
+a = 3
+a**2 = 9
+a**2 >= 9 and not a>3
+#[Out]# True
+I missed the fac tthat it iss not and I put flase.
+#I missed the fac that it is not and I put false
+# 6b. Prediction:
+True
+#[Out]# True
+ a+2 == 5 or a-1 != 3
+#[Out]# True
+%logstop
+# Tue, 11 Dec 2018 20:53:11
+x, y = (65, 40)
+# Tue, 11 Dec 2018 20:53:22
+x, y = (90, 115)
+# Tue, 11 Dec 2018 20:53:31
+x, y = (90, 115)
+# Tue, 11 Dec 2018 20:54:33
+x, y = (65, 40)
+# Tue, 11 Dec 2018 20:54:38
+50<x and x<80 and 30<=y and y<=45
+#[Out]# True
+# Tue, 11 Dec 2018 20:55:26
+50<x and x<80 and 30<=y and y>45
+#[Out]# False
+# Tue, 11 Dec 2018 20:56:44
+from __future__ import print_function # use Python 3.0 printing 
+# Tue, 11 Dec 2018 20:56:50
+def age_limit_output(age):
+        '''Step 9a if-else example'''
+        AGE_LIMIT = 13          # convention: use CAPS for constants
+        if age < AGE_LIMIT:
+                print(age, 'is below the age limit.')
+            else:
+                    print(age, 'is old enough.')
+
+# Tue, 11 Dec 2018 20:57:13
+%run  1.3.3/Chen_1.3.3.py
+# Tue, 11 Dec 2018 20:58:04
+ age_limit_output(10)
+# Tue, 11 Dec 2018 20:58:05
+ age_limit_output(10)
+# Tue, 11 Dec 2018 20:58:22
+%run 1.3.3/ Chen_1.3.3.py
+# Tue, 11 Dec 2018 20:58:57
+%run 1.3.3/Chen_1.3.3.py
+# Tue, 11 Dec 2018 20:59:27
+age_limit_output(10)
+# Tue, 11 Dec 2018 21:00:31
+ %run 1.3.3/Chen_1.3.3.py
+# Tue, 11 Dec 2018 21:00:35
+ %run 1.3.3/Chen_1.3.3.py
+# Tue, 11 Dec 2018 21:00:46
+ %run 1.3.3/Chen_1.3.3.py
+# Tue, 11 Dec 2018 21:00:51
+ %run 1.3.3/Chen_1.3.3.py
+# Tue, 11 Dec 2018 21:00:58
+age_limit_output(10)
+# Tue, 11 Dec 2018 21:01:04
+age_limit_output(16)
+# Tue, 11 Dec 2018 21:01:56
+#It outputs if the age is above or bewlow the minimum age
+# Tue, 11 Dec 2018 21:05:15
+cd 1.3.3
+# Tue, 11 Dec 2018 21:05:23
+%run
+# Tue, 11 Dec 2018 21:05:29
+%run Chen_1.3.3
+# Tue, 11 Dec 2018 21:06:43
+%run Chen_1.3.3
+# Tue, 11 Dec 2018 21:07:01
+pwd
+#[Out]# u'/home/ubuntu/workspace/1.3.3'
+# Tue, 11 Dec 2018 21:08:04
+%run Chen_1.3.3
+# Tue, 11 Dec 2018 21:08:16
+report_grade(87)
+# Tue, 11 Dec 2018 21:09:49
+report_grade(87)
+# Tue, 11 Dec 2018 21:13:12
+'t' in 'string'
+#[Out]# True
+# Tue, 11 Dec 2018 21:13:20
+'T' in 'string'
+#[Out]# False
+# Tue, 11 Dec 2018 21:13:27
+3 in [1,2,3]
+#[Out]# True
+# Tue, 11 Dec 2018 21:13:33
+'3' in [1,2,3] 
+#[Out]# False
+# Tue, 11 Dec 2018 21:15:20
+letter_in_word(h, hobo)
+# Tue, 11 Dec 2018 21:15:33
+%run Chen_1.3.3.py
+# Tue, 11 Dec 2018 21:15:36
+letter_in_word(h, hobo)
+# Tue, 11 Dec 2018 21:15:50
+letter_in_word(h, hobo)
+# Tue, 11 Dec 2018 21:15:58
+letter_in_word(h, hobo)
+# Tue, 11 Dec 2018 21:16:09
+letter_in_word(guess, word):
+    letter_in_word(guess, word):
+        
+# Tue, 11 Dec 2018 21:16:27
+letter_in_word(o, word)
+# Tue, 11 Dec 2018 21:16:50
+letter_in_word('o', word)
+# Tue, 11 Dec 2018 21:17:02
+letter_in_word('o','word')
+#[Out]# True
+# Tue, 11 Dec 2018 21:20:08
+secret = ['red','red','yellow','yellow','black']
+# Tue, 11 Dec 2018 21:20:14
+hint('red', secret)
+# Tue, 11 Dec 2018 21:20:34
+hint('red', secret)
+# Tue, 11 Dec 2018 21:20:55
+%run Chen_1.3.3.py
+# Tue, 11 Dec 2018 21:20:57
+hint('red', secret)
+# Tue, 11 Dec 2018 21:21:51
+#Conclusion1: When you have an if, else, or elif statement, there is one indentation after to represent how the following code is inside the function
+# Tue, 11 Dec 2018 21:24:40
+#Conclusion2: There is <, <=, >, >=, =, ==. I would like to know != which is not equal.
+# Tue, 11 Dec 2018 21:28:03
+I feel like they are all right to a certain extent. Ira says that the code will run slower wiht tow print statements. Although it is unnoticably small it is still true. Jayla said it will be hard to find the two print statements and that is also 
+# Tue, 11 Dec 2018 21:28:57
+I feel like they are all right to a certain extent. Ira says that the code will run slower wiht tow print statements. Although it is unnoticably small it is still true. Jayla said it will be hard to find the two print statements and that is also true. Kendra says it will take up less memory which is entirely true even though it doesn't take up much
+# Tue, 11 Dec 2018 21:29:16
+#Conclusion2: There is <, <=, >, >=, =, ==. I would like to know != which is not equal.
+# Tue, 11 Dec 2018 21:29:18
+I feel like they are all right to a certain extent. Ira says that the code will run slower wiht tow print statements. Although it is unnoticably small it is still true. Jayla said it will be hard to find the two print statements and that is also true. Kendra says it will take up less memory which is entirely true even though it doesn't take up much
+# Tue, 11 Dec 2018 21:29:35
+I feel like they are all right to a certain extent. Ira says that the code will run slower wiht tow print statements. Although it is unnoticably small it is still true. Jayla said it will be hard to find the two print statements and that is also true. Kendra saysich is entirely true even though it doesn't take up much
+# Tue, 11 Dec 2018 21:29:42
+#I feel like they are all right to a certain extent. Ira says that the code will run slower wiht tow print statements. Although it is unnoticably small it is still true. Jayla said it will be hard to find the two print statements and that is also true. Kendra says it will take up less memory which is entirely true even though it doesn't take up much
+# Tue, 11 Dec 2018 21:29:53
+# I feel like they are all right to a certain extent. Ira says that the code will run slower wiht tow print statements. Although it is unnoticably small it is still true. Jayla said it will be hard to find the two print statements and that is also true. Kendra says it will take up less memory which is entirely true even though it doesn't take up much
+# Tue, 11 Dec 2018 21:30:03
+%logstop

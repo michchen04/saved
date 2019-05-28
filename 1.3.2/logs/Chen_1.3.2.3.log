@@ -1,0 +1,20 @@
+# IPython log file
+
+# Mon, 10 Dec 2018 20:53:49
+Conclusion 1) I would like to have restraunts automated where I say what I want and it will make it for me. Like clicking a button that says what I want and It'll tell me all the details.
+# Mon, 10 Dec 2018 20:53:59
+#Conclusion 1) I would like to have restraunts automated where I say what I want and it will make it for me. Like clicking a button that says what I want and It'll tell me all the details.
+# Mon, 10 Dec 2018 20:54:32
+#Conclusion 2) We learned about float, int, variables, booleans, etc
+# Mon, 10 Dec 2018 20:56:04
+#Conclusion 3) The code editor is where we code and then the ipython session is where we run our code.
+# Mon, 10 Dec 2018 20:56:35
+#Conclusion 4) A function can be run as many times as you wuld like.
+# Mon, 10 Dec 2018 20:57:31
+%run 1.3.2/Chen_1.3.2.py
+# Mon, 10 Dec 2018 21:00:48
+#Conlcusion 5) This is the last question because it runs all the code to see if it works
+# Mon, 10 Dec 2018 21:00:55
+cd 1.3.3
+# Mon, 10 Dec 2018 21:01:19
+%logstop
